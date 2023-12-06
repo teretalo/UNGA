@@ -130,7 +130,7 @@ GROUP BY decade, country, topic, word
 @st.cache_data()
 def load_umap():
 
-    df = pd.read_csv('raw_data/umap.csv')
+    df = pd.read_csv('data/umap.csv')
     return df
 
 def select_info():
