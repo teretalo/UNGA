@@ -8,3 +8,5 @@ google.json
 data/
 /notebooks/speeches.csv
 notebooks/speeches.csv/
+__pycache__/
+/__pycache__
