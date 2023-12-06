@@ -24,6 +24,11 @@ executing==2.0.1
 fastjsonschema==2.19.0
 fonttools==4.45.1
 fqdn==1.5.1
+geopandas
+google-cloud-bigquery
+google-cloud-bigtable
+google-cloud-datastore
+google-cloud-storage
 idna==3.6
 iniconfig==2.0.0
 ipdb==0.13.13
@@ -93,9 +98,12 @@ scipy==1.11.4
 seaborn==0.13.0
 Send2Trash==1.8.2
 six==1.16.0
+shapely
 sniffio==1.3.0
 soupsieve==2.5
 stack-data==0.6.3
+streamlit
+streamlit_player
 terminado==0.18.0
 threadpoolctl==3.2.0
 tinycss2==1.2.1
