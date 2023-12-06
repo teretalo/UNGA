@@ -8,3 +8,4 @@ wagon-388210-1bf8175c3972.json
 data/
 /notebooks/speeches.csv
 notebooks/speeches.csv/
+__pycache__/
