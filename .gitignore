@@ -12,3 +12,4 @@ __pycache__/
 /__pycache__
 *.pyc
 wagon-388210-1bf8175c3972.json
+*.csv

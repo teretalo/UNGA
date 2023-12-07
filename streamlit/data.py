@@ -12,7 +12,7 @@ import geopandas as gpd
 
 dotenv.load_dotenv()
 # need to upload the speeches csv in here"
-BIG_QUERY = """`wagon-388210.production_dataset.speeches`"""
+BIG_QUERY = """`wagon-388210.production_dataset.recoded`"""
 
 credentials = service_account.Credentials.from_service_account_info(
     st.secrets["gcp_service_account"]
@@ -57,7 +57,7 @@ def load_stopwords():
 
 
 geo_query = f"""
-            SELECT year, country, topic, COUNT(speeches) as counts FROM `wagon-388210.production_dataset.speeches`
+            SELECT year, country, topic, COUNT(speeches) as counts FROM `wagon-388210.production_dataset.recoded`
             GROUP BY year, country, topic
             ORDER BY year ASC
             """
@@ -122,7 +122,7 @@ def get_best_words():
     bertopic_query = """WITH unsetted AS (
     SELECT FLOOR(year / 10) * 10 as decade, topic,
     SPLIT(REPLACE(REPLACE(REPLACE(REPLACE(CAST(ber_topic_words AS STRING), '[', ''), ']', ''), ',', ' '), "'", ''), ' ') as ber_topic_words_array,country
-    FROM `lewagon-bootcamp-384011.production_dataset.speeches`
+    FROM `wagon-388210.production_dataset.speeches`
     WHERE bert_prob = 1 AND topic != "bla_bla"),
     unnested AS (
     SELECT decade, topic, TRIM(word) as word, country

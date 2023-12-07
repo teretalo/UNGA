@@ -10,7 +10,7 @@ st.title('What countries were mentioned over time for each topic')
 
 
 query = """WITH unsetted AS (
-SELECT * FROM `lewagon-bootcamp-384011.production_dataset.speeches`,
+SELECT * FROM `wagon-388210.production_dataset.recoded`,
 UNNEST(countries_recoded) as country_mentioned)
 SELECT year, topic,country_mentioned, COUNT(country) as country_count from unsetted
 WHERE topic != "bla_bla"
@@ -89,7 +89,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 def map_countries():
     query = """WITH unsetted AS (
-    SELECT * FROM `lewagon-bootcamp-384011.production_dataset.speeches`,
+    SELECT * FROM `wagon-388210.production_dataset.recoded`,
     UNNEST(countries_recoded) as country_mentioned)
     SELECT topic,country_mentioned, COUNT(country) as country_count from unsetted
     WHERE topic != "bla_bla"
