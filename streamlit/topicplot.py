@@ -82,14 +82,14 @@ def select_topic_hist():
 
     st.plotly_chart(fig_topic, use_container_width=True)
 
-    # query = f'''SELECT year, country, topic, ber_topic_words
-    #     FROM {BIG_QUERY}
-    #     '''
-    # data = pd.DataFrame(run_query(query))
-    # topics = get_topic()
-    # selected_topic = st.selectbox("Select a topic", topics)
+    query = f'''SELECT year, country, topic, ber_topic_words
+        FROM {BIG_QUERY}
+        '''
+    data = pd.DataFrame(run_query(query))
+    topics = get_topic()
+    selected_topic = st.selectbox("Select a topic", topics)
 
-    # topic = data[data['topic'] == selected_topic]
-    # words = topic['ber_topic_words'].tolist()
-    # word_list = ast.literal_eval(words[0])
-    # return word_list
+    topic = data[data['topic'] == selected_topic]
+    words = topic['ber_topic_words'].tolist()
+    word_list = ast.literal_eval(words[0])
+    return word_list
