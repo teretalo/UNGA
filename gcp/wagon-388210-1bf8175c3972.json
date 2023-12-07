@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "wagon-388210",
+  "private_key_id": "1bf8175c397229a83d895ba3fdf827eab726cf9c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtRoglmXGM1KSW\nSeJCSAzkTubejoSw140/CaUpdOL5Ol5Yjar9O5iaHyy33rL8EGdjdtOQ1ubrAXij\nrqmvvqxSq3BebKVgqyDh9VSHzkLnVvc5YwRSWzwboCYE5KmKtgGnUVO3B8lbgvTE\naPeS55cEeIzyPI4VaRk1x6M8MRgXhwblkFmlr8bI/Sbwghye1yHEt64Sg4MHrZl3\ns/NadVQLsJLAuOxDON79zqIPblNC4XfKynXbxZg9Ls+DkiKuF7N2dFhipnwk81ZQ\nSvWJ3LVkMrxApexEI5b7hfbfIh8ghyvVl5/snmR3K+3/GDrDpij0+UGiHAQp5tHd\n/s13CZMPAgMBAAECggEAVfOfw27rGZ29iuNZfeF5q6LL+OgfQA2cfgGN0ROvJ0vh\n0vFrOTRfzUvbhdXNWSXV80vVRIqlfzt6mU8h0xC1MEjkc6JXIq2goRVt+fPB0jmc\nZvYMBcJF/boiQdkflLQV++ZmrWsKYf+C5Q7giBmjGs+lst+A53P70maWPVxpA/nf\nSTEPrDp2jOt667xgECo7Kb4ZpePgjqIIf+866refJW7HNYmYIBB6TX3wYItzOnGF\n8zCrZZxuAnz7BVSNLHIqHhDjV9c0aysgjYcOAGqPYMJqTx4JT/8pvJYIyebn2cBF\nYrXMnwtLdPu1YcN4XRFN1JG3iH5WDSZceqBM3BuJoQKBgQDulyDFzA88UfzUSRQn\nL1PUQ1rGNev2qpBhw/U3DbV5fiTYMrB2bTHncuZGsaC4FPhsahZekLQ5oii40J+2\n7CGtixlUwu2dhM81o9RIcqKKLZJiIw1nfp0zkMqFXgkuljo3HQ2zfQzoIf0FFwYy\nkf4SbmV8TaSEurwJl24clNOp/wKBgQC561JU8cMa2GFNM/e8n3nDjERxlUg07SuG\nYwXwrNUyAmZTlw8d+vBzP0bWzpw1rsA+B8TmIQalqvpkAsLGV0FvYkurwnoZF7L0\nOzpV7++KnwoJ1BMP3urRKUt+Ovmpv77a6lxdltceOjYAhuvAe3ofuXGZ/Fdxe/fb\n+nUiJpV28QKBgQDGxhH/uGpZDtVc5yVrH/rvNM5DpFjaQG/Zg7CgFUPD3FxF4rUx\ndPfGo+tFqmcD9jSh3iCU2GnOOlNC5kyp0UCdnO2VuHDOcv9O6RbK5PaVuDHkoN9i\nAhJmC5MuWZG8xlvp3sKzbtN58hciTnRTXV4XbPIQBX+zNP/D3e1W0oclcQKBgHpv\nnWWxXPJV4yYrfg9q2o5L1lsSm123fr1egu/vcesgJ3EO/vaYZjcPScB2ierUbWes\nSB/hSfZZ9dFc/BYQKliG3Bx901ipAcHTK2SiwRaCC+NTFUaTYAJkdoHnprkCPFcA\nldlQV9RhM2T/dUvqRQ+VWVm2E4P5xs3IT9EwpaeRAoGAOM+NSLqtPGSPLTMFMfI3\nC/y4M2zaQpwUVl/i/GaEKAGhBn0cYIp9Yd2pHwqaZl8VitelP2HW0g4pXR7luQg2\nvUFAw2at7oZv8RbxDMLJ+dd+GK6Nb7VyxSYaQ6KI1UDwSsgAQqXBblcX/In1QFRX\nraq10I9TypKg9RACNH+cQDs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "unga-647@wagon-388210.iam.gserviceaccount.com",
+  "client_id": "106871605102532299881",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/unga-647%40wagon-388210.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+
