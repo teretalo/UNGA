@@ -19,7 +19,7 @@ def select_continent():
     selected_continent = st.multiselect('Continent', continents)
     return selected_continent
 
-def generate_graph(selected_topic):
+def generate_graph(selected_topic, selected_continent):
     if not selected_topic:
         return st.warning('Please select topic first!')
     filterlist = ''
@@ -32,7 +32,7 @@ def generate_graph(selected_topic):
 
 
     query_full = f'''SELECT year , topic, COUNT(continent) as count FROM {BIG_QUERY}
-        WHERE topic IN (''' + filter_list[2:] + ')'  + '''
+        WHERE topic IN (''' + continent_list + ')'  + '''
         GROUP BY year, topic
         ORDER BY year ASC '''
     query_full = f'''SELECT year , topic, continent, COUNT(continent) as count FROM {BIG_QUERY}
