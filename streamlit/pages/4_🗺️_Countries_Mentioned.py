@@ -89,7 +89,11 @@ st.plotly_chart(fig, use_container_width=True)
 
 def map_countries():
     query = """WITH unsetted AS (
+<<<<<<< HEAD
     SELECT * FROM `wagon-388210.production_dataset.recoded`,
+=======
+    SELECT * FROM `lewagon-bootcamp-384011.production_dataset.recoded`,
+>>>>>>> 80d1de5ab2d06c436d5334a1b458de243a620d00
     UNNEST(countries_recoded) as country_mentioned)
     SELECT topic,country_mentioned, COUNT(country) as country_count from unsetted
     WHERE topic != "bla_bla"
