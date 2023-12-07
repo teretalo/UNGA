@@ -122,7 +122,7 @@ def get_best_words():
     bertopic_query = """WITH unsetted AS (
     SELECT FLOOR(year / 10) * 10 as decade, topic,
     SPLIT(REPLACE(REPLACE(REPLACE(REPLACE(CAST(ber_topic_words AS STRING), '[', ''), ']', ''), ',', ' '), "'", ''), ' ') as ber_topic_words_array,country
-    FROM `lewagon-bootcamp-384011.production_dataset.speeches`
+    FROM `wagon-388210.production_dataset.speeches`
     WHERE bert_prob = 1 AND topic != "bla_bla"),
     unnested AS (
     SELECT decade, topic, TRIM(word) as word, country
