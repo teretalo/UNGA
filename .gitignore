@@ -11,7 +11,13 @@ notebooks/speeches.csv/
 __pycache__/
 /__pycache__
 *.pyc
+<<<<<<< HEAD
 wagon-388210-1bf8175c3972.json
 gcp/
 /gcp
 *.csv
+=======
+notebooks/recoded.csv
+notebooks/speeches_1.csv
+wagon-388210-1bf8175c3972.json
+>>>>>>> new-branch
